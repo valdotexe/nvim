@@ -24,6 +24,5 @@ vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz") -- go to previous location 
 
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]]) -- replace word under cursor in file, mildly black magic, handle with care
 
-vim.keymap.set("n", "K", "i<CR><ESC>O") -- open parentheses/brackets in new line and insert
-vim.keymap.set("i", "<C-d>", "<ESC>i<CR><ESC>O") -- open parentheses/brackets in new line and insert, but from insert mode
+vim.keymap.set("i", "<C-d>", "<ESC>i<CR><ESC>O") -- open parentheses/brackets in new line and insert
 -- plugin related shortcuts set in plugin related files
